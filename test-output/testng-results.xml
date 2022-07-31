@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="29331" started-at="2022-08-01T00:19:28 IST" finished-at="2022-08-01T00:19:58 IST">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="29331" started-at="2022-08-01T00:19:28 IST" finished-at="2022-08-01T00:19:58 IST">
+      <class name="selenium.amazon.SearchItemPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:selenium.amazon.SearchItemPageTest@396e2f39]" name="setUp" is-config="true" duration-ms="11614" started-at="2022-08-01T00:19:28 IST" finished-at="2022-08-01T00:19:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchItem()[pri:0, instance:selenium.amazon.SearchItemPageTest@396e2f39]" name="searchItem" duration-ms="17408" started-at="2022-08-01T00:19:40 IST" finished-at="2022-08-01T00:19:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="verifyItemInCart()[pri:1, instance:selenium.amazon.SearchItemPageTest@396e2f39]" name="verifyItemInCart" duration-ms="207" started-at="2022-08-01T00:19:58 IST" finished-at="2022-08-01T00:19:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemInCart -->
+      </class> <!-- selenium.amazon.SearchItemPageTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
